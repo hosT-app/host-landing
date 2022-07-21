@@ -3696,6 +3696,8 @@ btn.btn--black {
 
 .s-download .download-bottom-image img {
   vertical-align: bottom;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 
