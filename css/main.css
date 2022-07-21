@@ -1741,6 +1741,8 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
   position: fixed;
   top: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 
@@ -1770,8 +1772,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 62px;
-  height: 62px;
+  width: 42px;
+  height: 42px;
 }
 
 
@@ -1994,10 +1996,14 @@ input::-moz-focus-inner {
   .header-nav-wrap {
     display: none;
     height: auto;
-    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 64px 44px 72px;
-    text-align: left;
+    text-align: center;
     position: absolute;
     top: 78px;
   }
@@ -2488,6 +2494,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content {
     display: block;
+    height: 1550px;
   }
 
   .home-content br {
@@ -2538,6 +2545,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:900px) {
   .home-content {
     padding-top: 16.8rem;
+    height: 1450px;
   }
 
   .home-content h1 {
@@ -2642,6 +2650,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:400px) {
   .home-content {
     padding-top: 15.2rem;
+    height: 1000px;
   }
 
   .home-content h1 {
