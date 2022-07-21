@@ -66,6 +66,25 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+ ::-webkit-scrollbar-track
+ {
+   border: 5px solid #121619;
+   
+   background-color: #b2bec3;
+ }
+ 
+ ::-webkit-scrollbar
+ {
+   width: 15px;
+   background-color: #dfe6e9;
+ }
+ 
+ ::-webkit-scrollbar-thumb
+ {
+   background-color: #de8b7a;
+   border-radius: 10px;
+ }
+
 html {
   font-size: 10px;
 }
