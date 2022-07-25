@@ -81,7 +81,7 @@
  
  ::-webkit-scrollbar-thumb
  {
-   background-color: #de8b7a;
+   background-color: #c97d6d;
    border-radius: 10px;
  }
 
@@ -1201,7 +1201,7 @@ input::-moz-focus-inner {
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
-  color: #121619;
+  color: #fff3ef;
 }
 
 /* line definition style 
